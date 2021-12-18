@@ -4,11 +4,13 @@ function Temp() {
   console.log('Type KtoF(Kelvin value here) to convert from Kelvin to Fahrenheit. Type KtoC(Kelvin value here) to convert Kelvin to Celsius. Type CtoK(Celsius value here) to convert Celsius to Kelvin. Type CtoF(Celsius value here) to convert Celsius to Fahrenheit. Type FtoC(Fahrenheit value here) to convert Fahrenheit to Celsius. Type FtoK(Fahrenheit value here) to convert Fahrenheit to Kelvin')
 }
 
-
+function Time() {
+  console.log("")
+}
 
 /*
 Directery:
-  Temputure converter: line 15
+  Temputure converters: line 23
   Time converters: line 55
 
 
@@ -51,19 +53,19 @@ function KtoF(K) {
 }
 
 
-
 /*
 Time directery:
-  millsecond converters: line 69 
-  second converters: line 115
-  minute converters: line 160
-  hour converters: line 204
-  day converters: line 249
-  week converters: line 294
-  month converters: line 318
-  year convertersL line 339
-
-
+  millsecond conversions: line 69 
+  second conversions: line 115
+  minute conversions: line 160
+  hour conversions: line 204
+  day conversions: line 249
+  week conversions: line 294
+  month conversions: line 318
+  year conversions: line 339
+  decade conversions: line 379
+  centery conversions: line 419
+  millenium conversions: line 454
 */
 
 function milliToSec(milli) {
@@ -336,3 +338,156 @@ function monthToMillennium (month) {
   console.log(millennium)
 }
 
+function yearTomilli (year) {
+  let milli = year * 31536000000
+  console.log(milli)
+}
+
+function yearToSec (year) {
+  let sec = year * 31536000
+  console.log(sec)
+}
+
+function yearToMin (year) {
+  let min = year * 525600
+  console.log(min)
+}
+
+function yearToHour (year) {
+  let hour = year * 8760
+  console.log(hour)
+}
+
+function yearToDay (year) {
+  let day = year * 365
+  console.log(day)
+}
+
+function yearToDecade (year) {
+  let decade = year / 10
+  console.log(decade)
+}
+
+function yearToCentery (year) {
+  let centery = year / 100
+  console.log(centery)
+}
+
+function yearToMillennium (year) {
+  let millennium = year / 1000
+  console.log(millenium)
+}
+
+function decadeToMilli (decade) {
+  let milli = decade * 315360000000
+  console.log(milli)
+}
+
+function decadeToSec (decade) {
+  let sec = decade * 315360000
+  console.log(sec)
+}
+
+function decadeToMin (decade) {
+  let min = decade * 525600
+  console.log(min)
+}
+
+function decadeToHour (decade) {
+  let hour = decade / 87600
+  console.log(hour)
+}
+
+function decadeToDay (decade) {
+  let day = decade * 3650
+  console.log(day)
+}
+
+function decadeToYear (decade) {
+  let year = decade * 10
+  console.log(year)
+}
+
+function decadeToCentery (decade) {
+  let centery = decade / 10
+  console.log(centery)
+}
+
+function decadeToMillennium (decade) {
+  let millennium = decade/100
+  console.log(millennium)
+}
+
+function centeryTomilli (centery) {
+  let milli = centery * 3153600000000
+  console.log(milli)
+}
+
+function centeryToSec (centery) {
+  let sec = centery * 3153600000
+  console.log(sec)
+}
+
+function centeryToMin (centery) {
+  let min = centery * 5256000
+  console.log(min)
+}
+
+function centeryToHour (centery) {
+  let hour = centery * 87600
+  console.log(hour)
+}
+
+function centeryToDay (centery) {
+  let day = centery * 36500
+  console.log(day)
+}
+
+function centeryToYear (centery) {
+  let year = centery * 10
+  console.log(year)
+}
+
+function centeryToMillenium (centery) {
+  let millenium = centery / 10
+  console.log(millenium)
+}
+
+function milleniumTomilli (millenium) {
+  let milli = millenium * 31536000000000
+  console.log(milli)
+}
+
+function milleniumToSec (millenium) {
+  let sec = millenium * 31536000000
+}
+
+function milleniumToMin (millenium) {
+  let min = millenium * 52560000
+  console.log(min)
+}
+
+function milleniumToHour (millenium) {
+  let hour = millenium * 8760000
+  console.log(hour)
+}
+
+function milleniumToDay (millenium) {
+  let day = millenium * 365000
+  console.log(day)
+}
+
+function milleniumToYear (millenium) {
+  let year = millenium * 1000
+  console.log(year)
+}
+
+function milleniumToDecade (millenium) {
+  let decade = millenium * 100
+  console.log(decade)
+}
+
+function milleniumToCentery (millenium) {
+  let centery = millenium * 10
+  console.log(centery)
+}
